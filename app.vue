@@ -18,7 +18,7 @@
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import Component1 from "./components/1.vue";
+import Component1 from "./components/Header.vue";
 import Component2 from "./components/2.vue";
 import Component3 from "./components/3.vue";
 import Component4 from "./components/4.vue";
