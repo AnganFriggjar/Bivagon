@@ -13,7 +13,9 @@
                 ? 'Products' 
                 : (n === 5 
                     ? 'CartEmpty' 
-                    : n)))) 
+                                    : (n === 6
+                    ? 'Filtreler , Kategoriler ve Marka' 
+                    : n)))))
 }}
 <!-- 1. buton Header, 2. Footer, 3. Giriş Yap / Kayıt Ol, 4. Products, 5. CartEmpty olacak -->
 
