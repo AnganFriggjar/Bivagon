@@ -2,18 +2,20 @@
   <nav class="navbar">
   <!-- 1. buton için özel metin Header olarak belirleniyor -->
   <button v-for="n in 10" :key="n" @click="emitChange(n)">
-   {{ 
+    {{ 
         n === 1 
           ? 'Header' 
           : (n === 2 
               ? 'Footer' 
               : (n === 3 
                   ? 'Giriş Yap / Kayıt Ol' 
-                  : n)) 
-      }} <!-- 1. buton Header, 2. Footer, 3. Giriş Yap / Kayıt Ol olacak -->
-  </button>
+                  : (n === 4 
+                      ? 'Products' 
+                      : n))) 
+      }} <!-- 1. buton Header, 2. Footer, 3. Giriş Yap / Kayıt Ol, 4. Products olacak -->
+    </button>
   </nav>
-  </template>
+</template>
    
   <script>
   export default {
