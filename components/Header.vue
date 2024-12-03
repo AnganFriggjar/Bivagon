@@ -87,17 +87,18 @@
    
   /* İkonlar */
   .icons {
-    display: flex;
-    justify-content: center; /* İkonları ortalar */
-    gap: 25px; /* İkonlar arasındaki boşluk */
-    margin-top: 20px; /* Menü ile ikonlar arasındaki boşluk */
-  }
-   
-  .icons i {
-    font-size: 24px;
-    color: #007bff;
-    cursor: pointer;
-  }
+  position: absolute; /* İkonları ekran üzerinde sabitler */
+  top: 20px; /* Yukarıdan uzaklık */
+  right: 20px; /* Sağdan uzaklık */
+  display: flex; /* İkonları yatay hizalar */
+  gap: 15px; /* İkonlar arasındaki boşluk */
+}
+
+.icons i {
+  font-size: 24px; /* İkon boyutu */
+  color: #007bff; /* İkon rengi */
+  cursor: pointer; /* İkon üzerine gelince işaretçi */
+}
    
   /* Responsive Tasarım */
   @media screen and (max-width: 768px) {

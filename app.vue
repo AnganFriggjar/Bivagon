@@ -22,7 +22,7 @@ import Component1 from "./components/Header.vue";
 import Component2 from "./components/Footer.vue";
 import Component3 from "./components/GirişKayıt.vue";
 import Component4 from "./components/Products.vue";
-import Component5 from "./components/5.vue";
+import Component5 from "./components/CartEmpty.vue";
 import Component6 from "./components/6.vue";
 import Component7 from "./components/7.vue";
 import Component8 from "./components/8.vue";
@@ -66,3 +66,7 @@ export default {
   padding: 20px;
 }
 </style>
+
+<script setup>
+import '@fortawesome/fontawesome-free/css/all.css';
+</script>
