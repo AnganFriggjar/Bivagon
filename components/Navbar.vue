@@ -13,11 +13,14 @@
                 ? 'Products' 
                 : (n === 5 
                     ? 'CartEmpty' 
-                                    : (n === 6
-                    ? 'Filtreler , Kategoriler ve Marka' 
-                    : n)))))
+                    : (n === 6
+                        ? 'Filtreler , Kategoriler ve Marka' 
+                        : (n === 7 
+                            ? 'Kasa Önü Fırsatlar' 
+                            : n))))))
 }}
-<!-- 1. buton Header, 2. Footer, 3. Giriş Yap / Kayıt Ol, 4. Products, 5. CartEmpty olacak -->
+<!-- 1. buton Header, 2. Footer, 3. Giriş Yap / Kayıt Ol, 4. Products, 5. CartEmpty, 6. Filtreler ve Kategoriler, 7. Kasa Önü Fırsatlar -->
+
 
     </button>
   </nav>
