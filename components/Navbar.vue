@@ -17,8 +17,12 @@
                         ? 'Filtreler , Kategoriler ve Marka' 
                         : (n === 7 
                             ? 'Kasa Önü Fırsatlar' 
-                            : n))))))
+                            : (n === 9 
+                                ? 'ProductList' 
+                                : n)))))))
 }}
+<!-- 1. Header, 2. Footer, 3. Giriş Yap / Kayıt Ol, 4. Products, 5. CartEmpty, 6. Filtreler ve Kategoriler, 7. Kasa Önü Fırsatlar, 9. ProductList -->
+
 <!-- 1. buton Header, 2. Footer, 3. Giriş Yap / Kayıt Ol, 4. Products, 5. CartEmpty, 6. Filtreler ve Kategoriler, 7. Kasa Önü Fırsatlar -->
 
 
