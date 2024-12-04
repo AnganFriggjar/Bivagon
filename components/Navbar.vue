@@ -8,11 +8,11 @@
     : (n === 2 
         ? 'Footer' 
         : (n === 3 
-            ? 'Giriş Yap / Kayıt Ol' 
+            ? 'Giriş Yap / Üye Ol' 
             : (n === 4 
-                ? 'Products' 
+                ? 'Fırsat Ürünleri' 
                 : (n === 5 
-                    ? 'CartEmpty' 
+                    ? 'Sepet' 
                     : (n === 6
                         ? 'Filtreler , Kategoriler ve Marka' 
                         : (n === 7 
@@ -20,9 +20,9 @@
                                                     : (n === 8
                             ? 'En Çok Ziyaret Edilen Ürünler' 
                             : (n === 9 
-                                ? 'ProductList' 
+                                ? 'Narenciye Sıkacakları' 
                               : (n === 10
-                                ? 'ProductList2' 
+                                ? 'Mutfak/Bar Yardımcı Makinalar' 
                                 : n)))))))))
 }}
 <!-- 1. Header, 2. Footer, 3. Giriş Yap / Kayıt Ol, 4. Products, 5. CartEmpty, 6. Filtreler ve Kategoriler, 7. Kasa Önü Fırsatlar, 9. ProductList -->

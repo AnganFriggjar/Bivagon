@@ -130,7 +130,7 @@
   justify-content: space-around;
   padding: 20px 0;
   border-bottom: 1px solid #ccc;
-  background-color: #f0f0f0; /* Açık gri arka plan */
+  background-color: #f0f0f0; 
 }
 
 .footer-column h4 {
@@ -151,7 +151,7 @@
 .footer-column ul li button {
   background: none;
   border: none;
-  color: #444; /* Gri renk */
+  color: #444; 
   cursor: pointer;
 }
 

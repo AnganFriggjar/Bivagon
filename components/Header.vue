@@ -28,7 +28,6 @@
   </template>
    
   <script setup>
-  // Script kısmı boş bırakılabilir.
   </script>
    
   <style scoped>
@@ -66,8 +65,8 @@
   }
    
   .menu ul li {
-    max-width: 200px; /* Uzun yazıların genişliğini sınırlar */
-    text-align: center; /* Yazıları ortalar */
+    max-width: 200px; /* Uzun yazıların genişliğini sınırlama */
+    text-align: center; /* Yazıları ortalama */
   }
    
   .menu ul li a {
@@ -75,9 +74,9 @@
     color: #333;
     font-size: 16px;
     font-weight: bold;
-    white-space: nowrap; /* Yazıların alt alta gelmesini engeller */
-    overflow: hidden; /* Taşma durumunda yazıyı gizler */
-    text-overflow: ellipsis; /* Uzun yazılarda "..." ekler */
+    white-space: nowrap; /* Yazıların alt alta gelmesini engelleme */
+    overflow: hidden; /* Taşma durumunda yazıyı gizleme */
+    text-overflow: ellipsis; /* Uzun yazılarda "..." ekleme */
     transition: color 0.3s;
   }
    
@@ -87,7 +86,7 @@
    
   /* İkonlar */
   .icons {
-  position: absolute; /* İkonları ekran üzerinde sabitler */
+  position: absolute; /* İkonları ekran üzerinde sabitleme */
   top: 20px; /* Yukarıdan uzaklık */
   right: 20px; /* Sağdan uzaklık */
   display: flex; /* İkonları yatay hizalar */

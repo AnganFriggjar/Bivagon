@@ -21,13 +21,13 @@ import Navbar from "./components/Navbar.vue";
 import Component1 from "./components/Header.vue";
 import Component2 from "./components/Footer.vue";
 import Component3 from "./components/GirişKayıt.vue";
-import Component4 from "./components/Products.vue";
+import Component4 from "./components/FırsatÜrünleri.vue";
 import Component5 from "./components/CartEmpty.vue";
 import Component6 from "./components/Filtreler.vue";
 import Component7 from "./components/KasaÖnüFırsatlar.vue";
 import Component8 from "./components/En Çok Ziyaret Edilen Ürünler.vue";
-import Component9 from "./components/ProductList.vue";
-import Component10 from "./components/ProductList2.vue";
+import Component9 from "./components/NarenciyeSıkacakları.vue";
+import Component10 from "./components/YardımcıMakinalar.vue";
 
 export default {
   components: {

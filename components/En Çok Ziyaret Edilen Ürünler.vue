@@ -112,10 +112,4 @@ const products = [
   margin-bottom: 8px;
   color: 	#363636;
 }
-
-.product-price {
-  font-size: 16px;
-  color: #00000;
-  margin-bottom: 12px;
-}
 </style>
